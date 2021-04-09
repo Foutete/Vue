@@ -92,8 +92,11 @@ import Counter from './Counter'
 
 export default {
   name: 'HelloWorld',
-  data: {
-    title: 'OpenClassrooms - Part 2 Quiz'
+  components: {Counter},
+  data() {
+    return {
+      title: 'OpenClassrooms - Part 2 Quiz'
+      }
   }
 }
 </script>
